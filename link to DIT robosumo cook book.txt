@@ -1,0 +1,5 @@
+https://robosumo.wordpress.com/
+
+and for the MSP430 specifically:
+
+https://robosumo.wordpress.com/msp430/
