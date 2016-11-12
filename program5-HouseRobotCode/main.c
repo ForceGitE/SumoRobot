@@ -16,12 +16,11 @@ int main( void )
     P1DIR = 0b00001010;   // Port 1 outputs: P1.3 (trig), LED on port P1.1
     P1OUT = 0b00000000;
 
-
     // Select primary peripheral module function on P2.2 (i.e. TA1.1)
     P2SEL  = 0b00000100;
     P2SEL2 = 0b00000000;
 
-    P2DIR  = 0b00011111; // Pin must also be configured as an output
+    P2DIR = 0b00011111; // Pin must also be configured as an output
     P2OUT = 0b00000011;
 
     // Configure Timer A interrupt
